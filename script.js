@@ -17,6 +17,8 @@ const goldText = document.querySelector("#goldText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
+
+//weapon info
 const weapons = [{
     name: "stick",
     power: 5},
@@ -32,6 +34,8 @@ const weapons = [{
         name: "sword",
         power: 100
     }];
+    
+//monster info    
 const monsters = [{
     name: "slime",
     level: 2,
@@ -45,6 +49,8 @@ const monsters = [{
     name: "dragon",
     level: 20,
     health: 300}];
+
+//this is to handle locations and the events that happen    
 const locations = [{
     name: "town square",
     "button text": ["Go to store", "Go to cave", "Fight dragon"],
